@@ -9,13 +9,13 @@ public class Main {
 
 
         System.out.println(ObjectA.getA2() + " " + ObjectA.getB2() + " " + ObjectA.getC2()
-                + " " +  + " " + ObjectA.getEnumClass());
+                + " " + ObjectA.getClass4().getA4() + " " + ObjectA.getClass4().getB4() + " " + ObjectA.getEnumClass());
 
         System.out.println(ObjectB.getA3() + " " + ObjectB.getB3() + " " + ObjectB.getC3()
-                + " " + ObjectB.getClass4() + " " + ObjectB.getEnumClass());
+                + " " + ObjectB.getClass4().getA4() + " " + ObjectB.getClass4().getB4() + " " + ObjectB.getEnumClass());
 
         System.out.println(ObjectC.getA3() + " " + ObjectC.getB3() + " " + ObjectC.getC3()
-                + " " + ObjectC.getClass4() + " " + ObjectC.getEnumClass());
+                + " " + ObjectC.getClass4().getA4() + " " + ObjectC.getClass4().getB4() + " " + ObjectC.getEnumClass());
 
 
         ObjectA.overloadedMethod("opkpp",3);
